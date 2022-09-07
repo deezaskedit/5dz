@@ -16,7 +16,7 @@ void ShowArray(int[] array)
         Console.Write(array[i] + " ");
         if (array[i] % 2 == 0) count++;
     }
-    Console.WriteLine($"\nThere are {count} even numbers!");    
+    Console.WriteLine($"\nThere are {count} even numbers");    
 }
 Console.WriteLine("Input the size of a random array: ");
 int evnum = Convert.ToInt32(Console.ReadLine());
